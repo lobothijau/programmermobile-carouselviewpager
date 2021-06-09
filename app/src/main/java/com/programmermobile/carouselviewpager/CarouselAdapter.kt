@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class CarouselAdapter(
-    val items: List<CarouselItemFragment>,
+    private val items: List<CarouselItemFragment>,
     activity: AppCompatActivity
 ) : FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
