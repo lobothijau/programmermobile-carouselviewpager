@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         carouselItems.mapIndexed { index, carouselItemFragment ->
             val imageView = ImageView(this)
             val params = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
             params.marginEnd = 8
